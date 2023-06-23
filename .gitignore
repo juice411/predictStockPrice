@@ -1,0 +1,62 @@
+# 忽略生成的文件和文件夹
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 忽略环境依赖和虚拟环境
+venv/
+env/
+env_bak/
+.pipenv/
+
+# 忽略本地配置文件
+*.sqlite3
+*.db
+*.ini
+
+# 忽略IDE和编辑器相关文件
+.idea/
+.vscode/
+*.sublime*
+*.swp
+*.swo
+
+# 忽略日志和临时文件
+*.log
+*.tmp
+logs/
+
+# 忽略生成的文档和文档相关文件
+docs/_build/
+docs/api/
+
+# 忽略系统文件和垃圾文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# 忽略敏感信息文件（如密码等）
+secret.txt
+credentials.json
+
+# 忽略自动生成的配置文件
+.venvrc
+.pytest_cache/
+.coverage
+.tox/
+.hypothesis/
+
+# 忽略生成的HTML报告
+htmlcov/
+
+# 忽略其他临时文件和文件夹
+*.bak
+*.tmp
+*.swp
+*.~
